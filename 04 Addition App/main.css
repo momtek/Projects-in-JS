@@ -1,11 +1,11 @@
 body {
-  background: #39422c;
+  background: #855a5c;
 }
 
 #wrapper {
   width: 750px;
   height: 350px;
-  background-color: #fff;
+  background-color: #b99299;
   margin-top: 120px;
   margin-left: 420px;
 }
@@ -43,7 +43,7 @@ table {
 }
 
 #btn {
-  background: #ffe317;
+  background: #5d0f1d;
   color: #fff;
   padding: 12px;
   border-style: none;
