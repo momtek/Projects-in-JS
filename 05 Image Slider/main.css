@@ -6,7 +6,8 @@ h1 {
 
 .wrapper {
   position: relative;
-  min-width: 1000px;
+  min-width: 900px;
+  margin: 0 auto;
 }
 
 .slides {
@@ -23,4 +24,19 @@ h1 {
   position: absolute;
   top: 45%;
   right: 0;
+}
+
+#btn-left {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #061826;
+}
+
+#btn-right {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #061826;
+}
+
+img {
 }
