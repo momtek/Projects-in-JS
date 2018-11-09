@@ -1,4 +1,14 @@
+h1 {
+  margin-left: 395px;
+  font-weight: bold;
+  color: #000;
+}
+
 .wrapper {
   position: relative;
   min-width: 1000px;
+}
+
+.slides {
+  width: 100%;
 }
