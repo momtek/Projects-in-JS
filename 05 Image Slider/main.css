@@ -1,12 +1,18 @@
+body {
+  background: #16090d;
+}
+
 h1 {
-  margin-left: 395px;
+  margin-left: 500px;
+  font-family: fantasy;
+  font-size: 70px;
   font-weight: bold;
-  color: #000;
+  color: #ffd8ea;
 }
 
 .wrapper {
   position: relative;
-  min-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -16,27 +22,31 @@ h1 {
 
 .btn-1 {
   position: absolute;
-  top: 45%;
+  font-size: 24px;
+  top: 50%;
   left: 0;
 }
 
-.btn-1 {
+.btn-2 {
   position: absolute;
-  top: 45%;
+  font-size: 24px;
+  top: 50%;
   right: 0;
 }
 
 #btn-left {
   padding: 10px;
   border-radius: 30px;
-  background-color: #061826;
+  background-color: #401b27;
 }
 
 #btn-right {
   padding: 10px;
   border-radius: 30px;
-  background-color: #061826;
+  background-color: #401b27;
 }
 
 img {
+  width: 958px;
+  height: 578px;
 }
