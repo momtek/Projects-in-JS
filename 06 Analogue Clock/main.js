@@ -3,6 +3,7 @@ let ctx = canvas.getContext('2d');
 let radius = canvas.height / 2;
 ctx.translate(radius, radius);
 radius = radius * 0.9;
+setInterval(drawClock, 1000);
 
 function drawClock() {
   drawFace(ctx, radius);
@@ -52,7 +53,7 @@ function drawNumbers(ctx, radius) {
 function drawTime(ctx, radius) {
   let now = new Date();
   let hour = now.getHours();
-  let hourminute = now.getMinutes();
+  let minute = now.getMinutes();
   let second = now.getSeconds();
   //hour
   hour = hour % 12;
@@ -69,4 +70,13 @@ function drawTime(ctx, radius) {
   drawHand(ctx, second, radius * 0.9, radius * 0.02);
 }
 
-drawClock();
+function drawHand(ctx, pos, length, width) {
+  ctx.beginPath();
+  ctx.lineWidth = width;
+  ctx.lineCap = 'round';
+  ctx.moveTo(0, 0);
+  ctx.rotate(pos);
+  ctx.lineTo(0, -length);
+  ctx.stroke();
+  ctx.rotate(-pos);
+}
