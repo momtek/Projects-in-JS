@@ -1,6 +1,6 @@
 function computeLoan() {
   let amount = document.getElementById('amount').value;
-  let interestRate = document.getElementById('InterestRate').value;
+  let interestRate = document.getElementById('interestRate').value;
   let months = document.getElementById('months').value;
   let interest = (amount * (interestRate * 0.01)) / months;
   let payment = (amount / months + interest).toFixed(2);
