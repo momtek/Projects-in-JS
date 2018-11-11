@@ -1,4 +1,4 @@
-let arraOfQuotes = [
+let arrayOfQuotes = [
   {
     text: 'The only people who never fail are those who never try.',
     from: 'Ilka Chase'
@@ -1499,7 +1499,7 @@ function genQuote() {
   let randomNumber = randomSelector(arrayOfQuotes.length);
 
   document.getElementById('quoteOutput').innerHTML =
-    '"' + arraOfQuotes[randomNumber].text + '"';
+    '"' + arrayOfQuotes[randomNumber].text + '"';
   document.getElementById('authorOutput').innerHTML =
-    '"' + arraOfQuotes[randomNumber].from + '"';
+    '"' + arrayOfQuotes[randomNumber].from + '"';
 }
